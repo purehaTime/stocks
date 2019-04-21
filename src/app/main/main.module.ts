@@ -8,6 +8,7 @@ import { DetailsComponent } from './details/details.component';
   declarations: [StocksComponent, StockItemComponent, DetailsComponent],
   imports: [
     CommonModule
-  ]
+  ],
+  exports: [StocksComponent, StockItemComponent, DetailsComponent]
 })
 export class MainModule { }
