@@ -6,13 +6,17 @@
 }
 
 .header {
-    grid-area: "header"
+    grid-area: header
 }
 
 .footer {
-    grid-area: "footer"
+    grid-area: footer
 }
 
 .stocks {
-    grid-area: "stocks"
+    grid-area: stocks
+}
+
+.none {
+    display: none;
 }
