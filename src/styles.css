@@ -1,5 +1,6 @@
 .main {
     display: grid;
+    grid-template-rows: 70px 1fr 70px;
     grid-template-areas: "header header"
                          "stocks stocks"
                          "footer footer"
@@ -19,4 +20,8 @@
 
 .none {
     display: none;
+}
+
+.blue {
+    background-color: #33bfff;
 }
