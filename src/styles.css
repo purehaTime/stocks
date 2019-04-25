@@ -1,5 +1,9 @@
+body, html {
+    height: 100%;
+  }
 .main {
     display: grid;
+    height: 100%;
     grid-template-rows: 70px 1fr 70px;
     grid-template-areas: "header header"
                          "stocks stocks"
@@ -7,15 +11,15 @@
 }
 
 .header {
-    grid-area: header
+    grid-area: header;
 }
 
 .footer {
-    grid-area: footer
+    grid-area: footer;
 }
 
 .stocks {
-    grid-area: stocks
+    grid-area: stocks;
 }
 
 .none {
