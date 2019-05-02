@@ -1,0 +1,9 @@
+.stocks-list {
+    min-width: 375px;
+}
+
+.details {
+    flex-grow: 1;
+    min-width: 600px;
+}
+

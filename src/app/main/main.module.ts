@@ -4,9 +4,10 @@ import { StocksComponent } from './stocks/stocks.component';
 import { StockItemComponent } from './stock-item/stock-item.component';
 import { DetailsComponent } from './details/details.component';
 import { CoreModule } from '../core/core.module';
+import { CompaniesComponent } from './companies/companies.component';
 
 @NgModule({
-  declarations: [StocksComponent, StockItemComponent, DetailsComponent],
+  declarations: [StocksComponent, StockItemComponent, DetailsComponent, CompaniesComponent],
   imports: [
     CommonModule
   ],

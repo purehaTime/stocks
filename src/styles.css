@@ -1,4 +1,4 @@
-body, html {
+body, html, .full-height {
     height: 100%;
   }
 .main {
@@ -28,4 +28,9 @@ body, html {
 
 .blue {
     background-color: #33bfff;
+}
+
+.flex {
+    display: flex;
+    display: -ms-flexbox;
 }
